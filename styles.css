@@ -482,9 +482,11 @@ body {
 .hero-keywords {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 4px;
     margin-top: 6px;
+    width: max-content;
+    max-width: max-content;
 }
 
 .hero-keywords .kw {
@@ -499,7 +501,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2px 14px;
-    text-align: left;
+    text-align: right;
+    justify-items: end;
 }
 
 .info-value.highlight {
