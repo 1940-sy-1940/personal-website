@@ -473,6 +473,7 @@ body {
     flex-wrap: wrap;
     gap: 4px 14px;
     max-width: 260px;
+    justify-content: flex-end;
 }
 
 .info-value > span {
@@ -483,26 +484,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 4px;
+    gap: 2px;
     margin-top: 6px;
     width: max-content;
     max-width: max-content;
 }
 
 .hero-keywords .kw {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--text-primary);
     font-weight: 500;
     white-space: nowrap;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .intent-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px 14px;
+    grid-template-columns: max-content max-content;
+    column-gap: 16px;
+    row-gap: 2px;
     text-align: right;
+    justify-content: end;
     justify-items: end;
+    width: max-content;
 }
 
 .info-value.highlight {
