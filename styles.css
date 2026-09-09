@@ -468,6 +468,33 @@ body {
     color: var(--text-primary);
     font-weight: 500;
     font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    max-width: 260px;
+}
+
+.info-value > span {
+    white-space: nowrap;
+}
+
+.hero-keywords {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 6px;
+    max-width: 100%;
+}
+
+.hero-keywords .kw {
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    background: var(--border-light);
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    font-weight: 500;
 }
 
 .info-value.highlight {
